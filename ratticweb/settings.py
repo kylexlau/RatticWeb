@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #  ____ _____ ___  ____  _
 # / ___|_   _/ _ \|  _ \| |
 # \___ \ | || | | | |_) | |
@@ -58,6 +59,7 @@ LANGUAGES = (
     ('fr', _('French')),
     ('de', _('German')),
     ('it', _('Italian')),
+    ('zh-cn', _('简体中文')),
 )
 
 # If you set this to False, Django will not use timezone-aware datetimes.

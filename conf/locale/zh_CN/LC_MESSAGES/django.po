@@ -1,0 +1,1229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-17 09:20+1000\n"
+"PO-Revision-Date: 2016-01-20 14:54+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: account/models.py:30
+msgid "Old password"
+msgstr "旧密码"
+
+#: account/models.py:38
+msgid "Incorrect password"
+msgstr "不正确的密码"
+
+#: account/models.py:56
+msgid "Items per page"
+msgstr "每页显示数量"
+
+#: account/models.py:57
+msgid "Favourite tags"
+msgstr "常用标签"
+
+#: account/templates/account_changepass.html:4
+#: account/templates/password_reset_confirm.html:4
+msgid "Setting New password"
+msgstr "设置新密码"
+
+#: account/templates/account_changepass.html:7
+#: account/templates/password_reset_confirm.html:8
+msgid "Please enter your new password twice."
+msgstr "请将你的新密码重复输入两次。"
+
+#: account/templates/account_changepass.html:8
+#: account/templates/password_reset_confirm.html:9
+msgid "So we can verify you typed it in correctly."
+msgstr "以确认输入正确。"
+
+#: account/templates/account_changepass.html:21
+msgid "Change Password"
+msgstr "修改密码"
+
+#: account/templates/account_deleteapikey.html:4
+#: account/templates/account_deleteapikey.html:7
+msgid "Delete API Key"
+msgstr "删除 API 键"
+
+#: account/templates/account_deleteapikey.html:4
+#: account/templates/account_newapikey.html:4
+#: account/templates/account_viewapikey.html:4
+#: account/templates/password_reset.html:5
+#: account/templates/password_reset_complete.html:5
+#: account/templates/password_reset_confirm.html:4
+#: account/templates/password_reset_done.html:5
+#: cred/templates/cred_detail.html:7 cred/templates/cred_list.html:6
+#: ratticweb/templates/base.html:13 staff/templates/staff_home.html:5
+msgid "Rattic"
+msgstr ""
+
+#: account/templates/account_deleteapikey.html:10
+msgid "Please press confirm if you wish to delete this key"
+msgstr "请确认你是否想删除这个API键"
+
+#: account/templates/account_deleteapikey.html:13
+#: account/templates/account_viewapikey.html:17
+#: cred/templates/cred_taglist.html:9
+#: staff/templates/staff_groupdetail.html:20
+#: staff/templates/staff_home.html:47
+msgid "Name"
+msgstr "名称"
+
+#: account/templates/account_deleteapikey.html:14
+#: cred/templates/cred_detail.html:82
+msgid "Created"
+msgstr "创建时间"
+
+#: account/templates/account_deleteapikey.html:19
+#: cred/templates/cred_tagdelete.html:8
+msgid "Confirm"
+msgstr "确认"
+
+#: account/templates/account_ldaperror.html:6
+msgid "LDAP Error"
+msgstr "LDAP错误"
+
+#: account/templates/account_ldaperror.html:7
+msgid "Your LDAP server returned the following error:"
+msgstr "你的LDAP服务器返回如下错误："
+
+#: account/templates/account_ldaperror.html:8 cred/models.py:83
+#: cred/templates/cred_part_passgenmodal.html:9
+msgid "Description"
+msgstr "描述"
+
+#: account/templates/account_ldaperror.html:9
+msgid "Further Info"
+msgstr "更多信息"
+
+#: account/templates/account_newapikey.html:4
+#: account/templates/account_newapikey.html:7
+#: account/templates/account_profile.html:47
+#: account/templates/account_viewapikey.html:4
+#: account/templates/account_viewapikey.html:7
+msgid "New API Key"
+msgstr "新API密钥"
+
+#: account/templates/account_newapikey.html:20
+#: cred/templates/cred_part_newtagmodal.html:13
+msgid "Create"
+msgstr "创建"
+
+#: account/templates/account_profile.html:7
+msgid "Your Account"
+msgstr "你的账号"
+
+#: account/templates/account_profile.html:10 cred/models.py:80
+#: cred/templates/cred_detail.html:44 ratticweb/templates/sidebar.html:28
+#: staff/templates/staff_home.html:26
+msgid "Username"
+msgstr "用户名"
+
+#: account/templates/account_profile.html:11
+#: staff/templates/staff_userdetail.html:32
+msgid "Email"
+msgstr "邮箱"
+
+#: account/templates/account_profile.html:15
+#: account/templates/account_profile.html:21
+msgid "Two Factor Authentication"
+msgstr "双重验证"
+
+#: account/templates/account_profile.html:15
+msgid "Enabled"
+msgstr "启用"
+
+#: account/templates/account_profile.html:15
+#: account/templates/account_tfa_disable.html:12
+msgid "Disable"
+msgstr "禁用"
+
+#: account/templates/account_profile.html:16
+msgid "Backup Codes Left"
+msgstr ""
+
+#: account/templates/account_profile.html:17
+msgid "View Codes"
+msgstr ""
+
+#: account/templates/account_profile.html:21
+msgid "Disabled"
+msgstr "未开启"
+
+#: account/templates/account_profile.html:21
+msgid "Enable now"
+msgstr "现在开启"
+
+#: account/templates/account_profile.html:24
+msgid "Last Password Change"
+msgstr "上次密码修改时间"
+
+#: account/templates/account_profile.html:25 cred/models.py:85
+#: ratticweb/templates/sidebar.html:18
+#: staff/templates/staff_userdetail.html:33
+msgid "Groups"
+msgstr "分组"
+
+#: account/templates/account_profile.html:30
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: account/templates/account_profile.html:35
+msgid "Change password"
+msgstr "修改密码"
+
+#: account/templates/account_profile.html:37
+msgid "Set Password"
+msgstr "密码设定"
+
+#: account/templates/account_profile.html:43
+msgid "API Keys"
+msgstr "API密钥"
+
+#: account/templates/account_profile.html:51
+msgid "Key Name"
+msgstr "密钥名称"
+
+#: account/templates/account_profile.html:52
+msgid "Date generated"
+msgstr "生成日期"
+
+#: account/templates/account_profile.html:53
+msgid "Expiry date"
+msgstr "过期日期"
+
+#: account/templates/account_profile.html:73
+msgid "No API Keys available yet"
+msgstr "还没有可用的API密钥"
+
+#: account/templates/account_profile.html:77
+msgid "Current Sessions"
+msgstr "当前会话信息"
+
+#: account/templates/account_profile.html:82
+msgid "Device"
+msgstr "登录设备"
+
+#: account/templates/account_profile.html:83
+msgid "IP Address"
+msgstr "IP地址"
+
+#: account/templates/account_profile.html:84
+msgid "Last Activity"
+msgstr "最后活动"
+
+#: account/templates/account_profile.html:95
+msgid "(This Session)"
+msgstr "（此会话）"
+
+#: account/templates/account_tfa_backup_tokens.html:5
+msgid "Backup Tokens"
+msgstr "备份口令牌"
+
+#: account/templates/account_tfa_backup_tokens.html:6
+msgid ""
+"Backup tokens can be used when your primary and backup\n"
+"      phone numbers aren't available. The backup tokens below can be used\n"
+"      for login verification. If you've used up all your backup tokens, you\n"
+"      can generate a new set of backup tokens. Only the backup tokens shown\n"
+"      below will be valid."
+msgstr ""
+
+#: account/templates/account_tfa_backup_tokens.html:18
+msgid "Print these tokens and keep them somewhere safe."
+msgstr ""
+
+#: account/templates/account_tfa_backup_tokens.html:20
+msgid "You don't have any backup codes yet."
+msgstr ""
+
+#: account/templates/account_tfa_backup_tokens.html:25
+msgid "Back to Account Profile"
+msgstr "返回账号资料页"
+
+#: account/templates/account_tfa_backup_tokens.html:26
+msgid "Generate Tokens"
+msgstr "生成令牌"
+
+#: account/templates/account_tfa_disable.html:5
+msgid "Disable Two-factor Authentication"
+msgstr "禁用两步认证"
+
+#: account/templates/account_tfa_disable.html:6
+msgid ""
+"You are about to disable two-factor authentication. This\n"
+"    compromises your account security, are you sure?"
+msgstr ""
+"你将取消两步认证，这会\n"
+"减弱你的账号安全，请确认？"
+
+#: account/templates/account_tfa_login.html:5 ratticweb/templates/home.html:16
+#: ratticweb/templates/navbar.html:59 ratticweb/templates/sidebar.html:26
+#: ratticweb/templates/sidebar.html:30
+msgid "Login"
+msgstr "登陆"
+
+#: account/templates/account_tfa_login.html:8
+msgid "Enter your credentials."
+msgstr "输入你的密码"
+
+#: account/templates/account_tfa_login.html:11
+#: account/templates/account_tfa_setup.html:28
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+#: account/templates/account_tfa_login.html:14
+#: account/templates/account_tfa_setup.html:31
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+#: account/templates/account_tfa_login.html:17
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+#: account/templates/account_tfa_login.html:21
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. "
+"Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+#: account/templates/account_tfa_login.html:33
+msgid "Or, alternatively, use one of your backup phones:"
+msgstr ""
+
+#: account/templates/account_tfa_login.html:43
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+#: account/templates/account_tfa_login.html:46
+msgid "Use Backup Token"
+msgstr ""
+
+#: account/templates/account_tfa_setup.html:5
+msgid "Enable Two-Factor Authentication"
+msgstr "启用两步认证"
+
+#: account/templates/account_tfa_setup.html:7
+msgid ""
+"You are about to take your account security to the\n"
+"        next level. Follow the steps in this wizard to enable two-factor\n"
+"        authentication."
+msgstr ""
+
+#: account/templates/account_tfa_setup.html:11
+msgid ""
+"Please select which authentication method you would\n"
+"        like to use."
+msgstr ""
+
+#: account/templates/account_tfa_setup.html:14
+msgid ""
+"To start using a token generator, please use your\n"
+"        smartphone to scan the QR code below. For example, use Google\n"
+"        Authenticator. Then, enter the token generated by the app.\n"
+"        "
+msgstr ""
+
+#: account/templates/account_tfa_setup.html:20
+msgid ""
+"Please enter the phone number you wish to receive the\n"
+"      text messages on. This number will be validated in the next step.\n"
+"      "
+msgstr ""
+
+#: account/templates/account_tfa_setup.html:24
+msgid ""
+"Please enter the phone number you wish to be called on.\n"
+"      This number will be validated in the next step. "
+msgstr ""
+
+#: account/templates/account_viewapikey.html:10
+msgid "Warning!"
+msgstr "警告！"
+
+#: account/templates/account_viewapikey.html:11
+msgid ""
+"This is the last chance that you will have to access the secret key. You "
+"should save it in a safe place now."
+msgstr "这是你最后一次能访问你的密钥。你现在应该将它保存到一个安全的地方。"
+
+#: account/templates/account_viewapikey.html:14
+msgid "Your new API key has been created."
+msgstr "你的新API键已经生成。"
+
+#: account/templates/account_viewapikey.html:18
+msgid "Secret Key"
+msgstr "密钥"
+
+#: account/templates/account_viewapikey.html:21
+msgid "Back to Profile"
+msgstr "返回资料页"
+
+#: account/templates/password_reset.html:5
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: account/templates/password_reset.html:8
+msgid ""
+"Please specify your email address to receive instructions for resetting it."
+msgstr "输入你的邮箱地址以便接收重置密码邮件。"
+
+#: account/templates/password_reset.html:15
+msgid "E-mail address"
+msgstr "电子邮箱地址"
+
+#: account/templates/password_reset.html:15
+msgid "Reset password"
+msgstr "重置密码"
+
+#: account/templates/password_reset_complete.html:5
+msgid "Password reset complete"
+msgstr "密码重置完成"
+
+#: account/templates/password_reset_complete.html:8
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "你的密码已经设置。你现在可以去登陆了。"
+
+#: account/templates/password_reset_complete.html:9
+msgid "Log in"
+msgstr "登陆"
+
+#: account/templates/password_reset_confirm.html:17
+msgid "New password"
+msgstr "新密码"
+
+#: account/templates/password_reset_confirm.html:22
+msgid "Confirm password"
+msgstr "确认密码"
+
+#: account/templates/password_reset_confirm.html:27
+msgid "Change my password"
+msgstr "修改我的密码"
+
+#: account/templates/password_reset_confirm.html:32
+msgid "Password reset unsuccessful"
+msgstr "密码重置不成功"
+
+#: account/templates/password_reset_confirm.html:33
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"密码充值链接无效，可以是因为它已经被使用过。\n"
+"请请求一次新的密码充值。"
+
+#: account/templates/password_reset_done.html:5
+msgid "Password reset successful"
+msgstr "密码重置成功"
+
+#: account/templates/password_reset_done.html:8
+msgid ""
+"We've e-mailed you instructions for setting\n"
+"your password to the e-mail address you submitted. You should be\n"
+"receiving it shortly."
+msgstr ""
+"我们已经发送充值密码步骤到你提交的邮箱里。\n"
+"你应该很快会收到。"
+
+#: account/templates/password_reset_email.html:4
+#, python-format
+msgid ""
+"\n"
+"You're receiving this e-mail because you requested a password reset for your "
+"user account at %(site_name)s.\n"
+"\n"
+"Please go to the following page and choose a new password:\n"
+msgstr ""
+"\n"
+"你收到此邮件是因为你请求了重置\n"
+"你在 %(site_name)s 账号的密码。\n"
+"请去以下页面设置一个新的密码：\n"
+
+#: account/templates/password_reset_email.html:12
+#, python-format
+msgid ""
+"\n"
+"Your username, in case you've forgotten: %(user.username)s\n"
+"\n"
+"Thanks for using our site!\n"
+"\n"
+"The %(site_name)s team.\n"
+msgstr ""
+"\n"
+"你的用户名如下（你可能已经忘记）：%(user.username)s\n"
+"\n"
+"谢谢你使用我们的网站！\n"
+"\n"
+"%(site_name)s 网站团队。\n"
+
+#: cred/fields.py:25
+#, python-format
+msgid ""
+"File size must be under %(maximumsize)s. Current file size is "
+"%(currentsize)s."
+msgstr "文件大小不能超过 %(maximumsize)s。当前文件大小是 %(currentsize)s."
+
+#: cred/forms.py:33 cred/templates/cred_detail.html:70
+#: cred/templates/cred_list.html:67 cred/templates/cred_list.html.py:69
+msgid "Owner Group"
+msgstr "所属分组"
+
+#: cred/forms.py:34
+msgid "Viewers Groups"
+msgstr "可查看分组"
+
+#: cred/forms.py:37
+msgid "Please enter a valid HTTP/HTTPS URL"
+msgstr "请输入一个有效的 HTTP/HTTPS 链接"
+
+#: cred/models.py:78 cred/templates/cred_list.html:53
+#: cred/templates/cred_list.html.py:55
+#: staff/templates/staff_changeadvice.html:19
+#: staff/templates/staff_import_overview.html:11
+msgid "Title"
+msgstr "标题"
+
+#: cred/models.py:79 cred/templates/cred_detail.html:42
+msgid "URL"
+msgstr "URL"
+
+#: cred/models.py:81 cred/templates/cred_detail.html:54
+#: ratticweb/templates/sidebar.html:29
+msgid "Password"
+msgstr "密码"
+
+#: cred/models.py:82
+msgid "Markdown Description"
+msgstr "Markdown描述"
+
+#: cred/models.py:84 staff/templates/staff_changeadvice.html:21
+#: staff/templates/staff_groupdetail.html:10
+msgid "Group"
+msgstr "分组"
+
+#: cred/models.py:86 cred/templates/cred_detail.html:80
+#: cred/templates/cred_list.html:75 ratticweb/templates/navbar.html:41
+#: ratticweb/templates/sidebar.html:10
+#: staff/templates/staff_changeadvice.html:22
+msgid "Tags"
+msgstr "标签"
+
+#: cred/models.py:87
+msgid "Icon"
+msgstr "图标"
+
+#: cred/models.py:88
+msgid "SSH key"
+msgstr "SSH 密钥"
+
+#: cred/models.py:89 cred/templates/cred_detail.html:64
+msgid "Attachment"
+msgstr "附件"
+
+#: cred/models.py:211
+msgid "Added"
+msgstr "添加"
+
+#: cred/models.py:212
+msgid "Changed"
+msgstr "修改"
+
+#: cred/models.py:213
+msgid "Only Metadata Changed"
+msgstr "修改了元数据"
+
+#: cred/models.py:214
+msgid "Only Details Viewed"
+msgstr "只查看了详细页面"
+
+#: cred/models.py:215
+msgid "Exported"
+msgstr "导出"
+
+#: cred/models.py:216
+msgid "Deleted"
+msgstr "删除"
+
+#: cred/models.py:217
+msgid "Scheduled For Change"
+msgstr "计划做变更"
+
+#: cred/models.py:218
+msgid "Password Viewed"
+msgstr "查看了密码"
+
+#: cred/views.py:76
+msgid "All passwords"
+msgstr "所有密码"
+
+#: cred/views.py:108
+#, python-format
+msgid "Passwords tagged with %(tagname)s"
+msgstr "密码标签：%(tagname)s"
+
+#: cred/views.py:112
+#, python-format
+msgid "Passwords in group %(groupname)s"
+msgstr "密码所属分组：%(groupname)s"
+
+#: cred/views.py:116
+#, python-format
+msgid "Passwords for search \"%(searchstring)s\""
+msgstr "在密码表中搜索: %(searchstring)s"
+
+#: cred/views.py:120
+#, python-format
+msgid "Versions of: \"%(credtitle)s\""
+msgstr "\"%(credtitle)s\" 的版本"
+
+#: cred/views.py:128
+msgid ""
+"That user is now disabled. Here is a list of passwords that they have viewed "
+"that have not since been changed. You probably want to add them all to the "
+"change queue."
+msgstr "此用户已经禁用。下面列出了他查看过后未变更的所有密码。你可能会想把他们加入到变更队列里。"
+
+#: cred/views.py:131
+#, python-format
+msgid "Changes required for \"%(username)s\""
+msgstr "%(username)s 需要变更"
+
+#: cred/views.py:142
+msgid "Passwords in the trash"
+msgstr "垃圾箱里的密码"
+
+#: cred/views.py:150
+msgid "Passwords on the Change Queue"
+msgstr "变更队列里的密码"
+
+#: cred/views.py:361 staff/views.py:352
+msgid "Unknown (Logs deleted)"
+msgstr "未知（日志已删除）"
+
+#: cred/widgets.py:15
+msgid "Choose"
+msgstr "选择"
+
+#: cred/templates/cred_detail.html:16
+msgid ""
+"You are about to delete this password. A staff member will be required if "
+"you want to undelete it."
+msgstr "你将要删除此密码。需要管理员用户才能恢复删除了的密码。"
+
+#: cred/templates/cred_detail.html:19
+msgid ""
+"This credential has been deleted and is in the trash can. It is only visible "
+"to staff. You can alter it if you wish, its history will still be recorded. "
+"Click the undelete button to restore it. If you click the Delete Permanently "
+"button then the password, its entire history and all its audit logs will be "
+"removed."
+msgstr ""
+
+#: cred/templates/cred_detail.html:22
+msgid "Hey there!"
+msgstr "你好！"
+
+#: cred/templates/cred_detail.html:22
+msgid "This credential is an historical version."
+msgstr "此密码是一个历史版本。"
+
+#: cred/templates/cred_detail.html:22
+msgid "Click here"
+msgstr "点击此处"
+
+#: cred/templates/cred_detail.html:22
+msgid "to see the latest version."
+msgstr "来查看最新版本。"
+
+#: cred/templates/cred_detail.html:25
+msgid "Change Required"
+msgstr "需要变更"
+
+#: cred/templates/cred_detail.html:25
+msgid ""
+"This credential is on the change queue and should have its password changed "
+"as soon as possible."
+msgstr "此密码在变更队列中，应该尽快修改密码。"
+
+#: cred/templates/cred_detail.html:25
+msgid "Why not"
+msgstr "为什么不"
+
+#: cred/templates/cred_detail.html:25
+msgid "do it now"
+msgstr "马上做"
+
+#: cred/templates/cred_detail.html:25
+msgid "?"
+msgstr "？"
+
+#: cred/templates/cred_detail.html:29
+#: staff/templates/staff_groupdetail.html:13
+#: staff/templates/staff_home.html:29 staff/templates/staff_home.html.py:38
+#: staff/templates/staff_home.html:47 staff/templates/staff_home.html.py:52
+#: staff/templates/staff_userdetail.html:22
+msgid "Edit"
+msgstr "编辑"
+
+#: cred/templates/cred_detail.html:30
+msgid "History"
+msgstr "历史"
+
+#: cred/templates/cred_detail.html:31 cred/templates/cred_detail.html.py:99
+#: cred/templates/cred_list.html:31 cred/templates/cred_taglist.html:18
+#: staff/templates/staff_groupdetail.html:14
+#: staff/templates/staff_home.html:30 staff/templates/staff_home.html.py:39
+#: staff/templates/staff_home.html:47 staff/templates/staff_home.html.py:53
+#: staff/templates/staff_userdetail.html:24
+msgid "Delete"
+msgstr "删除"
+
+#: cred/templates/cred_detail.html:33 cred/templates/cred_list.html:37
+#: staff/templates/staff_changeadvice.html:37
+msgid "Add to Change Queue"
+msgstr "加入变更队列"
+
+#: cred/templates/cred_detail.html:36 cred/templates/cred_detail.html:104
+#: cred/templates/cred_list.html:34
+msgid "Undelete"
+msgstr "恢复"
+
+#: cred/templates/cred_detail.html:48 cred/templates/cred_detail.html.py:59
+msgid "Copy"
+msgstr "复制"
+
+#: cred/templates/cred_detail.html:64 cred/templates/cred_detail.html.py:67
+msgid "Download"
+msgstr "下载"
+
+#: cred/templates/cred_detail.html:67
+msgid "SSH Key"
+msgstr "SSH 密钥"
+
+#: cred/templates/cred_detail.html:71 cred/templates/cred_list.html:73
+msgid "Viewer Groups"
+msgstr "可查看分组"
+
+#: cred/templates/cred_detail.html:81
+msgid "Last Changed"
+msgstr "最后更新时间"
+
+#: cred/templates/cred_detail.html:87
+msgid "Description:"
+msgstr "描述："
+
+#: cred/templates/cred_edit.html:11
+msgid "Create Password"
+msgstr "创建密码"
+
+#: cred/templates/cred_edit.html:11
+msgid "Edit Password"
+msgstr "编辑密码"
+
+#: cred/templates/cred_edit.html:24 cred/templates/cred_export.html:18
+#: cred/templates/cred_tagedit.html:17 staff/templates/staff_groupedit.html:18
+#: staff/templates/staff_import_process.html:23
+#: staff/templates/staff_keepassimport.html:30
+#: staff/templates/staff_useredit.html:18
+msgid "Submit"
+msgstr "提交"
+
+#: cred/templates/cred_list.html:28 cred/templates/cred_taglist.html:8
+msgid "Add New"
+msgstr "添加"
+
+#: cred/templates/cred_list.html:40
+msgid "Apply a Tag"
+msgstr "应用标签"
+
+#: cred/templates/cred_list.html:43
+msgid "Download Keepass"
+msgstr "下载Keepass"
+
+#: cred/templates/cred_list.html:60 cred/templates/cred_list.html.py:62
+#: cred/templates/credaudit_list.html:9 staff/templates/staff_audit.html:28
+#: staff/templates/staff_changeadvice.html:20
+#: staff/templates/staff_import_overview.html:12
+#: staff/templates/staff_userdetail.html:14
+msgid "User"
+msgstr "用户"
+
+#: cred/templates/cred_list.html:102 cred/templates/cred_list.html.py:104
+#: staff/templates/staff_audit.html:53 staff/templates/staff_audit.html:55
+msgid "Prev"
+msgstr "前一页"
+
+#: cred/templates/cred_list.html:114 cred/templates/cred_list.html.py:116
+#: staff/templates/staff_audit.html:65 staff/templates/staff_audit.html:67
+msgid "Next"
+msgstr "下一页"
+
+#: cred/templates/cred_list.html:124
+msgid "Matched Tags"
+msgstr "匹配的标签"
+
+#: cred/templates/cred_part_export.html:10
+msgid "Export to Keepass"
+msgstr "导出成KeePass文件"
+
+#: cred/templates/cred_part_export.html:13
+msgid ""
+"Please enter the password you would like the Keepass file to be encrypted "
+"with."
+msgstr "请输入密码，以加密KeePass文件。"
+
+#: cred/templates/cred_part_export.html:27
+msgid "Export"
+msgstr "导出"
+
+#: cred/templates/cred_part_logomodal.html:14
+msgid "Icons"
+msgstr "图标"
+
+#: cred/templates/cred_part_logomodal.html:24
+msgid "Close"
+msgstr "关闭"
+
+#: cred/templates/cred_part_newtagmodal.html:5
+msgid "Add New Tag"
+msgstr "添加新标签"
+
+#: cred/templates/cred_part_newtagmodal.html:9
+msgid "Tag Name:"
+msgstr "标签名："
+
+#: cred/templates/cred_part_newtagmodal.html:12
+msgid "Create Another"
+msgstr "创建另一个"
+
+#: cred/templates/cred_part_passgenmodal.html:5
+msgid "Password Generator"
+msgstr "密码生成器"
+
+#: cred/templates/cred_part_passgenmodal.html:9
+msgid "Must Have"
+msgstr "必须要"
+
+#: cred/templates/cred_part_passgenmodal.html:9
+msgid "Can Have"
+msgstr "可以有"
+
+#: cred/templates/cred_part_passgenmodal.html:13
+msgid "Lowercase Alphabet"
+msgstr "小写字母"
+
+#: cred/templates/cred_part_passgenmodal.html:18
+msgid "Uppercase Alphabet"
+msgstr "大小字母"
+
+#: cred/templates/cred_part_passgenmodal.html:23
+msgid "Numbers"
+msgstr "数字"
+
+#: cred/templates/cred_part_passgenmodal.html:28
+msgid "Special"
+msgstr "特殊字符"
+
+#: cred/templates/cred_part_passgenmodal.html:33
+msgid "Spaces"
+msgstr "空格"
+
+#: cred/templates/cred_part_passgenmodal.html:36
+msgid "Password Length"
+msgstr "密码长度"
+
+#: cred/templates/cred_part_passgenmodal.html:39
+msgid "Cancel"
+msgstr "取消"
+
+#: cred/templates/cred_part_passgenmodal.html:40
+msgid "Generate"
+msgstr "生成"
+
+#: cred/templates/cred_search.html:9
+msgid "Type your Query"
+msgstr "输入你的查询"
+
+#: cred/templates/cred_search.html:10 ratticweb/templates/navbar.html:71
+#: ratticweb/templates/navbar.html.py:97
+msgid "Search"
+msgstr "搜索"
+
+#: cred/templates/cred_tagdelete.html:7
+msgid "Deleting tag"
+msgstr "删除标签"
+
+#: cred/templates/cred_taglist.html:9
+msgid "Count"
+msgstr "数量"
+
+#: cred/templates/cred_taglist.html:9
+#: staff/templates/staff_import_overview.html:10
+msgid "Actions"
+msgstr "操作"
+
+#: cred/templates/cred_taglist.html:17
+msgid "Rename"
+msgstr "重命名"
+
+#: cred/templates/cred_tags.html:7
+msgid "All Tags"
+msgstr "所有标签"
+
+#: cred/templates/credaudit_list.html:3
+msgid "Audit Logs"
+msgstr "审计日志"
+
+#: cred/templates/credaudit_list.html:7 staff/templates/staff_audit.html:23
+msgid "Action"
+msgstr "动作"
+
+#: cred/templates/credaudit_list.html:11 staff/templates/staff_audit.html:31
+msgid "Credential"
+msgstr "密码"
+
+#: cred/templates/credaudit_list.html:13 staff/templates/staff_audit.html:33
+msgid "When"
+msgstr "何时"
+
+#: cred/templates/credaudit_list.html:29
+msgid "More logs..."
+msgstr "更多日志..."
+
+#: ratticweb/settings.py:57
+msgid "English"
+msgstr "英文"
+
+#: ratticweb/settings.py:58
+msgid "French"
+msgstr "法语"
+
+#: ratticweb/settings.py:59
+msgid "German"
+msgstr "德语"
+
+#: ratticweb/settings.py:60
+msgid "Italian"
+msgstr "意大利语"
+
+#: ratticweb/templates/404.html:6
+msgid "Page not found"
+msgstr "页面不存在"
+
+#: ratticweb/templates/404.html:7
+msgid ""
+"This is not the page you are looking for, contact your systems administrator "
+"if you believe you have recieved this in error."
+msgstr ""
+
+#: ratticweb/templates/500.html:6
+msgid "Something went Splork!"
+msgstr "有些事情不对劲！"
+
+#: ratticweb/templates/500.html:7
+msgid ""
+"Something went wrong and the server was unable to process this request. "
+"Check your servers error logs for more details."
+msgstr ""
+
+#: ratticweb/templates/500.html:8
+msgid "If you would like to report an issue with RatticDB please visit"
+msgstr "如果你想报告此问题给开发者，请访问"
+
+#: ratticweb/templates/500.html:8
+msgid "Github Issues"
+msgstr "Github Issues"
+
+#: ratticweb/templates/base.html:51
+msgid "Password management powered by"
+msgstr "密码管理系统 Powered by"
+
+#: ratticweb/templates/base.html:51 ratticweb/templates/navbar.html:12
+msgid "RatticDB"
+msgstr ""
+
+#: ratticweb/templates/base.html:51
+msgid "built by"
+msgstr ""
+
+#: ratticweb/templates/base.html:51
+msgid "and"
+msgstr "和"
+
+#: ratticweb/templates/base.html:51
+msgid "Report an issue"
+msgstr "报告问题"
+
+#: ratticweb/templates/base.html:51
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: ratticweb/templates/home.html:9
+msgid "Your username and password didn't match. Please try again."
+msgstr "你的用户名和密码不匹配。请重试。"
+
+#: ratticweb/templates/home.html:13
+msgid "Welcome to Rattic"
+msgstr "欢迎使用Rattic密码管理系统"
+
+#: ratticweb/templates/home.html:14
+msgid "RatticDB Logo"
+msgstr "RatticDB Logo"
+
+#: ratticweb/templates/home.html:15
+msgid "It does passwords."
+msgstr "它管理密码。"
+
+#: ratticweb/templates/navbar.html:16
+#: staff/templates/staff_groupdetail.html:22
+msgid "Passwords"
+msgstr "密码"
+
+#: ratticweb/templates/navbar.html:20 ratticweb/templates/navbar.html.py:47
+msgid "Change Queue"
+msgstr "变更队列"
+
+#: ratticweb/templates/navbar.html:25 ratticweb/templates/navbar.html.py:51
+msgid "Staff Management"
+msgstr "用户管理"
+
+#: ratticweb/templates/navbar.html:30 ratticweb/templates/navbar.html.py:64
+msgid "Help"
+msgstr "帮助"
+
+#: ratticweb/templates/navbar.html:37
+msgid "Menu"
+msgstr "菜单"
+
+#: ratticweb/templates/navbar.html:44
+msgid "All Passwords"
+msgstr "所有密码"
+
+#: ratticweb/templates/navbar.html:55 ratticweb/templates/sidebar.html:9
+msgid "Logout"
+msgstr "登出"
+
+#: ratticweb/templates/sidebar.html:6
+msgid "You"
+msgstr "你"
+
+#: ratticweb/templates/sidebar.html:7
+#, python-format
+msgid "Welcome %(username)s."
+msgstr "欢迎 %(username)s 用户."
+
+#: ratticweb/templates/sidebar.html:8
+msgid "Profile"
+msgstr "资料"
+
+#: ratticweb/templates/sidebar.html:15
+msgid "Add Favourite Tags on the "
+msgstr "将标签加入到"
+
+#: ratticweb/templates/sidebar.html:16
+msgid "profile"
+msgstr "资料"
+
+#: ratticweb/templates/sidebar.html:16
+msgid "page to see them here."
+msgstr "页的最爱标签列后会在此显示。"
+
+#: ratticweb/templates/sidebar.html:22
+msgid "If you are a member of any groups, you will see them listed here. "
+msgstr "如果你是任何组的成员，你会见到这些组名列在这里。"
+
+#: ratticweb/templates/sidebar.html:31
+msgid "Forgotten password?"
+msgstr "忘记密码？"
+
+#: ratticweb/templates/sidebar.html:36
+msgid "Google Sign-in"
+msgstr "Google登入"
+
+#: staff/models.py:47
+msgid "Passwords do not match"
+msgstr "密码不符"
+
+#: staff/models.py:83
+msgid "Could not read keepass file, the password you gave may not be correct."
+msgstr "无法读取KeePass文件，你给的密码可能不正确。"
+
+#: staff/models.py:88
+msgid "That file does not appear to be a valid KeePass file."
+msgstr "这个文件不像是一个有效的KeePass文件。"
+
+#: staff/templates/staff_audit.html:10
+#, python-format
+msgid "Audit Logs for password &apos;%(cred_title)s&apos;"
+msgstr "&apos;%(cred_title)s&apos; 密码的审计日志"
+
+#: staff/templates/staff_audit.html:13
+#, python-format
+msgid "Audit Logs for user &apos;%(username)s&apos;"
+msgstr "&apos;%(username)s&apos; 用户的审计日志"
+
+#: staff/templates/staff_audit.html:16
+#, python-format
+msgid "Audit Logs going back %(item)s days ago"
+msgstr "%(item)s 天内的审计日志"
+
+#: staff/templates/staff_changeadvice.html:6
+#, python-format
+msgid "Changes for user: %(username)s"
+msgstr "修改用户：%(username)s"
+
+#: staff/templates/staff_changeadvice.html:7
+msgid ""
+"We noticed that you are disabling a user account, or removing groups\n"
+"from a user. To help you RatticDB has analysed the auditlogs to see what\n"
+"passwords the user knows, and no longer has access to. We recommend that\n"
+"you add all these passwords to the change queue. To do this press the\n"
+"&quot;Add to Change Queue&quot; button, if you don't want to change some\n"
+"of the passwords, simply uncheck them first."
+msgstr ""
+
+#: staff/templates/staff_groupdetail.html:7
+msgid "Delete Group"
+msgstr "删除分组"
+
+#: staff/templates/staff_groupdetail.html:8
+msgid "Deleting this group will delete every password underneath it."
+msgstr "删除此分组会删除属于它的所有密码。"
+
+#: staff/templates/staff_groupdetail.html:21
+#: staff/templates/staff_home.html:23
+msgid "Users"
+msgstr "用户"
+
+#: staff/templates/staff_groupdetail.html:26
+msgid "Delete forever"
+msgstr "永久删除"
+
+#: staff/templates/staff_groupedit.html:6
+msgid "Create Group"
+msgstr "创建分组"
+
+#: staff/templates/staff_groupedit.html:6
+msgid "Edit Group"
+msgstr "编辑分组"
+
+#: staff/templates/staff_home.html:5
+msgid "Staff"
+msgstr "用户"
+
+#: staff/templates/staff_home.html:8
+msgid "Staff Manage"
+msgstr "用户管理"
+
+#: staff/templates/staff_home.html:12
+msgid "Add User"
+msgstr "添加用户"
+
+#: staff/templates/staff_home.html:16
+msgid "Add Group"
+msgstr "添加分组"
+
+#: staff/templates/staff_home.html:18
+msgid "Import Keepass"
+msgstr "导入Keepass"
+
+#: staff/templates/staff_home.html:19
+msgid "View Trash"
+msgstr "查看垃圾箱"
+
+#: staff/templates/staff_home.html:20
+msgid "Audit One Week"
+msgstr "一周审计"
+
+#: staff/templates/staff_home.html:27
+msgid "email"
+msgstr "邮箱"
+
+#: staff/templates/staff_home.html:45
+msgid "Access Groups"
+msgstr "访问分组"
+
+#: staff/templates/staff_import_overview.html:6
+msgid "Import Overview"
+msgstr "导入概览"
+
+#: staff/templates/staff_import_overview.html:19
+msgid "Import"
+msgstr "导入"
+
+#: staff/templates/staff_import_overview.html:20
+msgid "Skip"
+msgstr "跳过"
+
+#: staff/templates/staff_import_process.html:10
+msgid "Password Import"
+msgstr "密码导入"
+
+#: staff/templates/staff_keepassimport.html:16
+msgid "Keepass Import"
+msgstr "Keepass文件导入"
+
+#: staff/templates/staff_keepassimport.html:17
+msgid ""
+"We recommend that you import your keepass data into a\n"
+"seperate group, then adjust the group on each password as required."
+msgstr ""
+"我们建议你导入你的KeePass数据到一个\n"
+"单独的分组，然后再根据需要调整每个密码的分组。"
+
+#: staff/templates/staff_userdetail.html:8
+msgid ""
+"\n"
+"    Deleting this user will remove any associated auditlogs, maybe "
+"deactivate\n"
+"    their account instead?\n"
+"  "
+msgstr "\n删除此用户会删除其关联的所有审计日志，也许你只是想先禁用他？。"
+
+#: staff/templates/staff_userdetail.html:19
+msgid "Confirm Delete"
+msgstr "确认删除"
+
+#: staff/templates/staff_userdetail.html:23
+msgid "Disable Two Factor"
+msgstr "禁用两步认证"
+
+#: staff/templates/staff_useredit.html:6
+msgid "Create User"
+msgstr "创建用户"
+
+#: staff/templates/staff_useredit.html:6
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: staff/templates/staff_useredit.html
+msgid "Staff status"
+msgstr "是否管理员"
+
+#: staff/templates/staff_useredit.html
+msgid "Newpass"
+msgstr "新密码"
+
+#: staff/templates/staff_useredit.html
+msgid "Confirmpass"
+msgstr "确认密码"
+
