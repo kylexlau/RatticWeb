@@ -18,3 +18,17 @@ Support and Known Issues:
 
 Dev Setup: <https://github.com/tildaslash/RatticWeb/wiki/Development>
 
+Encrypt Password Field
+======================
+
+Refer (https://github.com/defrex/django-encrypted-fields) for how to create keyset:
+
+	$ mkdir fieldkeys
+	$ keyczart create --location=fieldkeys --purpose=crypt
+	$ keyczart addkey --location=fieldkeys --status=primary --size=256
+
+Add in your `settting.py`
+
+	ENCRYPTED_FIELDS_KEYDIR = '/path/to/fieldkeys'
+
+
