@@ -12,6 +12,8 @@ from ssh_key import SSHKey
 from fields import SizedFileField
 from storage import CredAttachmentStorage
 
+# encrypt
+from encrypted_fields import EncryptedCharField
 
 class Tag(models.Model):
     name = models.CharField(max_length=64, unique=True)
@@ -78,7 +80,7 @@ class Cred(models.Model):
     title = models.CharField(verbose_name=_('Title'), max_length=64, db_index=True)
     url = models.URLField(verbose_name=_('URL'), blank=True, null=True, db_index=True)
     username = models.CharField(verbose_name=_('Username'), max_length=250, blank=True, null=True, db_index=True)
-    password = models.CharField(verbose_name=_('Password'), max_length=250, blank=True, null=True)
+    password = EncryptedCharField(verbose_name=_('Password'), max_length=250, blank=True, null=True)
     descriptionmarkdown = models.BooleanField(verbose_name=_('Markdown Description'), default=False, )
     description = models.TextField(verbose_name=_('Description'), blank=True, null=True)
     group = models.ForeignKey(Group, verbose_name=_('Group'))
