@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load i18n two_factor %}
+{% load static from staticfiles %}
 
 {% block content %}
   <h1>{% block title %}{% trans "Login" %}{% endblock %}</h1>
@@ -49,4 +50,7 @@
 
     {% include "two_factor/_wizard_actions.html" %}
   </form>
+  <script type="application/javascript" src="{% static "jquery/js/jquery.min.js" %}"></script>
+  <script type="application/javascript" src="{% static "rattic/js/login.js" %}"></script>
 {% endblock %}
+
