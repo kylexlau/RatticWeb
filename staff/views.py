@@ -23,8 +23,8 @@ from decorators import rattic_staff_required
 
 @rattic_staff_required
 def home(request):
-    userlist = User.objects.all()
-    grouplist = Group.objects.all()
+    userlist = User.objects.all().order_by('username')
+    grouplist = Group.objects.all().order_by('name')
     return render(request, 'staff_home.html', {'userlist': userlist, 'grouplist': grouplist})
 
 
